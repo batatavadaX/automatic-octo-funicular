@@ -7,3 +7,6 @@ class schedule:
         scheduler = AsyncIOScheduler()
         scheduler.add_job(shadow_run, "interval", seconds=600)
         scheduler.start()
+
+    async def shadowrun():
+        await schedule.sh()
