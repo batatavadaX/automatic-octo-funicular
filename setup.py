@@ -6,7 +6,7 @@ with open("README.md", "r") as setup:
 
 setuptools.setup(
     name="shadowrun",
-    version="0.1.2",
+    version="0.11.2",
     author="Dhruv Maaniya (@midnightmadwalk)",
     author_email="midnightmadwalk@gmail.com",
     description="pyhton interaction with heroku website.",
