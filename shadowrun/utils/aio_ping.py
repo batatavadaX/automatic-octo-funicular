@@ -6,5 +6,5 @@ class run:
     async def ping() -> int:
         async with aiohttp.request(
             "GET", host.host_()) as r:
-        return r.status
+            return r.status
         
