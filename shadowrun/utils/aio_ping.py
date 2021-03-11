@@ -1,7 +1,7 @@
 import aiohttp
-from .get_host import host
+from .get_host import _host
 
 async def ping():
-    masync with aiohttp.request("GET", host.host_()) as r:
+    async with aiohttp.request("GET", _host()) as r:
         return int(r.status)
         
