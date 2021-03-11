@@ -1,4 +1,6 @@
 from .utils import *
 from .scheduler import schedule
+import asyncio 
 
-shadowrun = await schedule.sh()
+async def shadowrun():
+    await schedule.sh()
