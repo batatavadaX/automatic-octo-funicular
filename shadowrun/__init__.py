@@ -1,2 +1,5 @@
 from .utils import *
-from .scheduler import shadowrun
+
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
+scheduler = AsyncIOScheduler()
