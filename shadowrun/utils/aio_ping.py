@@ -7,7 +7,7 @@ async def ping():
             if r.status == 200:
                 print("online")
             else:
-                print("offline")
+                print("offline", r.status)
     except Exception:
          print("Can't Connect")
         
