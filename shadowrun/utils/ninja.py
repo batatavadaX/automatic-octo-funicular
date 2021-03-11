@@ -1,7 +1,7 @@
-from .aio_ping import run 
+from .aio_ping import ping
 
 async def shadow_run():
-    if await run.ping() == 200:
+    if await ping() == 200:
         print("online")
     else:
         print("offline")
