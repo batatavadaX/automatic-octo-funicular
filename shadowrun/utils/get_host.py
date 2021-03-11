@@ -7,6 +7,7 @@ def _host():
     __port__ = os.environ.get("PORT", 6969)
     if __port__ = 6969:
         print("no web process running")
+    break
     else:
       __url__ = f"http://{__host__}:{__port__}"
       return __url__
