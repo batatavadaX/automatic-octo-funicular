@@ -8,6 +8,6 @@ async def ping():
                 print("online")
             else:
                 print("offline", r.status)
-    except Exception:
-         print("Can't Connect")
+    except Exception as e:
+         print("Can't Connect", e)
         
